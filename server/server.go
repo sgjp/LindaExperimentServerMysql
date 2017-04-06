@@ -24,7 +24,7 @@ var resultQty int
 
 func StartServer() {
 
-	primeNumsQty = 5000
+	primeNumsQty = 50
 	resultQty = 0
 
 	log.Fatal(coap.ListenAndServeMulticast("udp", "224.0.1.187:5683",
